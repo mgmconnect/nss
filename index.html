@@ -12,6 +12,7 @@
         background: linear-gradient(to left, #0a25f0, #01b2fe);
         color: black;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:black;
       }
       .info {
         margin-top: 10px;
@@ -20,10 +21,12 @@
           rgba(255, 255, 255, 0.1),
           rgba(255, 255, 255, 0)
         );
+        /* backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); */
         border-radius: 20px;
         border: 1px solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-        animation: fade 3s;
+        animation: fade 4s ease-in-out;
       }
       .leader {
         border-radius: 10px;
@@ -36,7 +39,8 @@
         border-radius: 20px;
         border: 1px solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-        animation: fade 4s;
+        animation: fade 4s ease-in-out;
+        
       }
       .cordinator,
       .contact {
@@ -48,17 +52,18 @@
         border-radius: 20px;
         border: 1px solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-        animation: fade 5s;
+        animation: fade 5s ease-in-out;
       }
       .img {
         margin-bottom: 30px;
-        animation: fade 2s;
+        animation: fade 2s ease-in-out;
       }
       h3 {
         background: #85c8ff;
         margin-top: 0;
         border-radius: 11px 10px 0 0;
         box-shadow: inset 5px 1px 5px #a9d8fe;
+        color: black;
         /* animation: fade 4s; */
       }
       @keyframes fade{
